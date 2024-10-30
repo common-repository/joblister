@@ -1,0 +1,44 @@
+{
+  "name": "joblister",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "start:hot": "wp-scripts start --hot",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [],
+  "author": "Marios Sofokleous",
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.2.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "dompurify": "^3.0.3",
+    "react-google-recaptcha": "^3.1.0",
+    "react-router-dom": "^6.23.1",
+    "react-select": "^5.7.3",
+    "react-share": "^5.1.0",
+    "react-slugify": "^3.0.2",
+    "react-switch": "^7.0.0",
+    "recoil": "^0.7.7"
+  },
+  "files": [
+    "joblister.php",
+    "includes",
+    "build"
+  ]
+}
